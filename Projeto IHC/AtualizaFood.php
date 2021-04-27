@@ -51,12 +51,6 @@
         }
     }
 
-    
-
-
-    
-
-
     mysqli_close($con);
 ?>
 

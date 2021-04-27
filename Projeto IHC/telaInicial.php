@@ -22,8 +22,7 @@
                     </div>
                 </div>";  
                 $_SESSION['MensagemDeLogin'] = "";
-    }
-
+      }
     ?>
 
     <div .container>
@@ -45,11 +44,11 @@
               
               
               <div class = "mover">
-                <div class = "mainImages"><a href="Pizzas.html"><img class = "imagemHover" src = "Imagens/MainPage/MASSAS.png" width="337px" height="225px" style = "top: 150px; left: 0px;"></a></div>
+                <div class = "mainImages"><a href="Massas.php"><img class = "imagemHover" src = "Imagens/MainPage/MASSAS.png" width="337px" height="225px" style = "top: 150px; left: 0px;"></a></div>
                 
                 <div class = "mainImages">
                   <div class = "buttonHover" style = "top: 347px; left: 0px;">
-                  <a href = "muda.html" style = "color: #111111; left: 20px;">
+                  <a href = "Massas.php" style = "color: #111111; left: 20px;">
                       ESCOLHA A SUA MASSA FAVORITA
                     </a>
                   </div>
@@ -69,11 +68,11 @@
               </div>
 
               <div class = "mover">
-                <div class = "mainImages"><a href="Pizzas.html"><img class = "imagemHover"  src = "Imagens/MainPage/SALADAS.png" width="337px" height="225px" style = "top: 450px; left: 0px;"></a></div>
+                <div class = "mainImages"><a href="Salada.php"><img class = "imagemHover"  src = "Imagens/MainPage/SALADAS.png" width="337px" height="225px" style = "top: 450px; left: 0px;"></a></div>
 
                 <div class = "mainImages">
                   <div class = "buttonHover" style = "top: 648px; left: 0px;">
-                    <a href = "Pizzas.html" style="color: #111111; left: 15px">
+                    <a href = "Salada.php" style="color: #111111; left: 15px">
                       ESCOLHA A SUA SALADA FAVORITA
                     </a>
                   </div>
@@ -81,17 +80,39 @@
               </div>
               
               <div class = "mover">              
-                <div class = "mainImages"><a href="Pizzas.html"><img class = "imagemHover"  src = "Imagens/MainPage/SANDUICHES.png"  width="337px" height="225px" style = "top: 450px; left: 343px;"></a></div>
+                <div class = "mainImages"><a href="Lanches.php"><img class = "imagemHover"  src = "Imagens/MainPage/SANDUICHES.png"  width="337px" height="225px" style = "top: 450px; left: 343px;"></a></div>
 
                 <div class = "mainImages">
                   <div class = "buttonHover" style = "top: 648px; left: 343px;">
-                    <a href = "Pizzas.html" style="color: #111111; left: 15px">
+                    <a href = "Lanches.php" style="color: #111111; left: 15px">
                       ESCOLHA O SEU LANCHE FAVORITO
                     </a>
                   </div>
                 </div>
               </div>
 
+              <div class = "mover">              
+                <div class = "mainImages"><a href="Bebidas.php"><img class = "imagemHover"  src = "Imagens/MainPage/BEBIDAS.png"  width="337px" height="225px" style = "top: 746px; left: 0px;"></a></div>
+
+                <div class = "mainImages">
+                  <div class = "buttonHover" style = "top: 944px; left: 0px;">
+                    <a href = "Bebidas.php" style="color: #111111; left: 58px">
+                      ESCOLHA A SUA BEBIDA
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class = "mover">              
+                <div class = "mainImages"><a href="Sobremesas.php"><img class = "imagemHover"  src = "Imagens/MainPage/SOBREMESAS.png"  width="337px" height="225px" style = "top: 746px; left: 343px;"></a></div>
+
+                <div class = "mainImages">
+                  <div class = "buttonHover" style = "top: 944px; left: 343px;">
+                    <a href = "Sobremesas.php" style="color: #111111; left: 40px">ESCOLHA A SUA SOBREMESA
+                    </a>
+                  </div>
+                </div>
+              </div>              
           </div>
       </div>
   </div>
