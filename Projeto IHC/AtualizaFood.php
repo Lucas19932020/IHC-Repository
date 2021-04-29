@@ -9,13 +9,14 @@
     Session_Start();
     $nome = $_POST["pizza"];
     $qtd = $_POST["qtd"];
-    echo $nome." ".$qtd;
+    $_SESSION['PaginaAnterior'] = $_POST["telaAnterior"];
+    
 
     $con = mysqli_connect('localhost', 'root', '', 'deliverybank');
     $sql = "SELECT quantidade FROM food WHERE Nome = '$nome'";
 
     if (mysqli_query($con,$sql)){
-    $resultado = mysqli_query($con, $sql);
+        $resultado = mysqli_query($con, $sql);
     }
     else{
         echo "cai no erro";

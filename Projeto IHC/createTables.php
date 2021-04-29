@@ -19,6 +19,10 @@
             $mysql[5] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Calabresa', 30, 0)";
             $mysql[6] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Peperoni', 40, 0)";
             $mysql[7] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Frango com Catupiry', 36, 0)";
+            $mysql[8] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Bacon', 40, 0)";
+            $mysql[9] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Atum', 36, 0)";
+            $mysql[10] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Palmito', 36, 0)";
+            $mysql[11] = "INSERT INTO food (Nome, Valor, Quantidade) VALUES ('Pizza de Muçarela', 30, 0)";
                 
                 
                 for($i = 0; $i < count($mysql); $i++){

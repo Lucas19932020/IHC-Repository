@@ -12,6 +12,9 @@
             height: 66px; 
             background: #F8EFEF;
         }
+        img{
+            position: absolute;
+        }
 
     </style>
 
@@ -41,10 +44,14 @@
     ?>
 <div class="container">
         <div class="row">
-            <div class="col-md-7" style="margin-left:250px;margin-top:200px;">
-            <div class = "titleRectangle"></div>
-            <br><br><br><br>
+            <div class="col-md-7" style="margin-left:250px; margin-top:200px;">
+            
+            <div class = "titleRectangle">
+                <img src = "Imagens/Titulos/CADASTRO.png" style = "top: 15px; left: 207px;">
+            </div><br><br><br><br>
+            
                 <form action="confirmaCadastro.php" method="post">
+            
 
                     <div class="form-group">
                         <input class="form-control" type="text" name="nome" placeholder="Nome" style='border-radius: 30px;' required>
@@ -68,14 +75,16 @@
                     <div class="form-group">
                     <table width="100%">
                          <tr>
-                            <td align = "center">
-                                <input class="btn btn-block btn-primary" style="border-radius: 20px;" type="submit" value="Confirmar" name="confirmar">
+                            <td >
+                                <input class="btn btn-block btn-primary" style="border-radius: 20px; width: 125px" type="submit" value="Confirmar" name="confirmar">
+                            </td>
+                            <td align = "right"> 
+                                <a href = "loginScreen.php" class="btn btn-block btn-info" style="border-radius: 20px; width: 125px;" > Voltar </a>
                             </td>
                         </tr>
+                        </form>
                     </div>
-                </form>
-
-          </div>
+            </div>
       </div>
   </div>
   <script>

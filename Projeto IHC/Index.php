@@ -36,6 +36,7 @@
         $_SESSION['MensagemDEErroDB'] = "";
         $_SESSION['MensagemCriarTabela'] = "";
         $_SESSION['MensagemCriacaoCadastro'] = "";
+        $_SESSION['PaginaAnterior'] = "";
 
         
 

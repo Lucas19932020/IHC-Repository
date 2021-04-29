@@ -54,7 +54,9 @@
 <div class="container">
         <div class="row">
             <div class="col-md-7" style="margin-left:250px;margin-top:200px;">
+                
                 <div class = "titleRectangle"><img src = "Imagens/Titulos/LOGIN.png" style = "top: 15px; left: 250px;"></div>
+                
                     <br><br><br><br>
                     <form action="confirmaLogin.php" method="post">
 
@@ -70,13 +72,13 @@
                     <table width="100%">
                          <tr>
                             <td width = "33.33%">
-                                <input class="btn btn-block btn-primary" style="border-radius: 20px;" type="submit" value="Entrar" name="enviar">
+                                <input class="btn btn-block btn-primary" style="border-radius: 20px; width: 125px;" type="submit" value="Entrar" name="enviar" >
                             </td>
                             <td align = "center">
-                                <a href = "telaInicial.php" class="btn btn-block btn-info" style="border-radius: 20px;" > Voltar </a>
+                                <a href = "telaInicial.php" class="btn btn-block btn-info" style="border-radius: 20px; width: 125px;" > Voltar </a>
                             </td>
                             <td align = "right" width = "33.33%">
-                                <a href = "CadastroUsuario.php" class="btn btn-block btn-info" style="border-radius: 20px;" > Cadastrar </a>
+                                <a href = "CadastroUsuario.php" class="btn btn-block btn-info" style="border-radius: 20px; width: 125px;" > Cadastrar </a>
                             </td>
                         </tr>
                     </table>
