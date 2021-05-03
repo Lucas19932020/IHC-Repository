@@ -9,6 +9,7 @@
 
     <script src="http://code.jquery.com/jquery-latest.js"></script>
     
+
 </head>
 <body style="background: rgb(220, 132, 29)">
     <?php
@@ -28,10 +29,10 @@
                     
                     <div class = "menuLista">
                         <button class = "btnCancelaMenu"></button>
-                        <a class="buttonA" href = "muda.html" style = "left: 38px; top: 48px;" >Faça seu pedido</a>
-                        <a class="buttonA" href = "muda.html" style = "left: 38px; top: 96px;" >Cardápio</a>
-                        <a class="buttonA" href = "muda.html" style = "left: 38px; top: 146px;" >Promoções</a>
-                        <a class="buttonA" href = "muda.html" style = "left: 38px; top: 197px;" >Contato</a>
+                        <a class="buttonA" href = "FacaSeuPedido.php" style = "left: 38px; top: 48px;" >Faça seu pedido</a>
+                        <a class="buttonA" href = "Cardapio.php" style = "left: 38px; top: 96px;" >Cardápio</a>
+                        <a class="buttonA" href = "Promocoes.php" style = "left: 38px; top: 146px;" >Promoções</a>
+                        <a class="buttonA" href = "Contato.php" style = "left: 38px; top: 197px;" >Contato</a>
                     </div>
 
                 </div>
@@ -212,6 +213,16 @@
                         <p class = "texto">Muçarela, Tomate e Orégano</p>
                         <div class = "Retangulo">R$ 30,00</div>
                     </div>
+
+                    <div class = "titleRectangle" style = "position: absolute; top: 2070px; height: 150px;">
+                        <a class="btnBase" href = "Massas.php" style = "left: 21px; top: 27px;" >MASSAS</a>
+                        <a class="btnBase" href = "Saladas.php" style = "left: 241px; top: 27px;" >SALADAS</a>
+                        <a class="btnBase" href = "Lanches.php" style = "left: 461px; top: 27px;" >LANCHES</a>
+                        <a class="btnBase" href = "Bebidas.php" style = "left: 128px; top: 85px;" >BEBIDAS</a>
+                        <a class="btnBase" href = "Sobremesas.php" style = "left: 349px; top: 85px;" >SOBREMESAS</a>
+                    
+                    </div>                
+                    
 
                     <div class = "MensagemPortuguesa">
                         <div class='container p-3 my-3 bg-dark text-white' style = "width: 500px; height: 193px; position: absolute; left: 93px; border-radius: 20px;">
@@ -513,12 +524,16 @@
                                 <input class="btn btn-light" type="submit" value="Seguir para o caixa" name="Caixa" style = "text-align: left; width: 214px;"> <img  src = "Imagens/Comum/Carrinho.png"  width="42px" height="35px" style = "top: 2px; left: 160px;">
                             </div>  
                         </form>
-                        
-                        <a class="btn btn-light" href = "telaInicial.php" style = "width: 100px; top: 685px; left:120px;"> Voltar </a>
+
+                    </div>
+                    <div class="menuEsquerdo" style = "top: 85%; ">
+                        <a class="btn btn-light" href = "telaInicial.php" style = "width: 100px; left:120px;"> Voltar </a>
                     </div>
                 </div>
 
             </div>
+
+
         </div>
         
 

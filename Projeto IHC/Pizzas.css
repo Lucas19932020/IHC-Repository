@@ -144,6 +144,18 @@ img{
     background: url('Imagens/Comum/CancelaMenu.png');
 }
 
+.btnBase{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    background: #CCCCCC;
+    font-family: Della Respira;
+    font-size: 28px;
+    text-align: center;
+    border-radius: 10px;
+}
+
 .buttonA{
   display: inline-block;
   position: absolute;
@@ -155,6 +167,8 @@ img{
   text-align: center;
   border-radius: 10px;
 }
+
+
 
 a{
   position: absolute;
